@@ -136,7 +136,7 @@ class Mat4 {
             return md;
         } else {
             let a = ma.buffer;
-            let b = mb;
+            let b = mb.buffer;
             let vd = new Vec4();
             let d = vd.buffer;
             d[0] = b[0] * a[0 * 4 + 0] + b[1] * a[1 * 4 + 0] + b[2] * a[2 * 4 + 0] + b[3] * a[3 * 4 + 0];
